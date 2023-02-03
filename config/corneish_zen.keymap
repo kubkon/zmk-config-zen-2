@@ -16,15 +16,15 @@
                 default_layer {
                         label = "COLEMAK";
 // -----------------------------------------------------------------------------------------
-// | TAB  |  Q  |  W  |  F  |  P   |  G  |   |  J  |  L   |  U  |  Y  |  ;  | BKSP |
-// | ESC  |  A  |  R  |  S  |  T   |  D  |   |  H  |  N   |  E  |  I  |  O  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V   |  B  |   |  K  |  M   |  ,  |  .  |  /  | RSE  |
-//                    | GUI | CTRL | SPC |   | ENT | LWR  | ALT |
+// | TAB  |  Q  |  W  |  F   |  P   |  G  |   |  J  |  L   |  U  |  Y  |  ;  | BKSP |
+// | ESC  |  A  |  R  |  S   |  T   |  D  |   |  H  |  N   |  E  |  I  |  O  |  '   |
+// | SHFT |  Z  |  X  |  C   |  V   |  B  |   |  K  |  M   |  ,  |  .  |  /  | RSE  |
+//                    | CTRL | GUI  | SPC |   | ENT | LWR  | ALT |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BKSP
    &kp ESC   &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E     &kp I   &kp O    &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &mo 2
-                  &kp LGUI &kp LCTRL &kp SPACE   &kp RET &mo 1 &kp RALT
+                  &kp LCTRL &kp LGUI &kp SPACE   &kp RET &mo 1 &kp RALT
                         >;
                 };
                 lower_layer {
